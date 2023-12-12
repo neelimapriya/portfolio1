@@ -1,8 +1,8 @@
 
 const Footer = () => {
     return (
-        <div>
-            <h2>footer</h2>
+        <div className="bg-white">
+            <p>Copyright &copy; 2023 - All right reserved</p>
         </div>
     );
 };
