@@ -11,7 +11,7 @@ import { SiExpress, SiFirebase, SiJavascript, SiMongodb } from "react-icons/si";
 
 const Skill = () => {
   return (
-    <div className="flex flex-col text-center  bg-black py-5 font-serif">
+    <div className="flex flex-col text-center text-slate-100 bg-black py-5 font-serif">
       <h2 className="text-3xl font-semibold">My Skill</h2>
       <h3 className="text-xl font-serif">Things I Love!</h3>
       <div className="md:w-2/3 md:mx-auto">

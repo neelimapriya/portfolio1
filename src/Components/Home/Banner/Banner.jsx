@@ -1,6 +1,8 @@
+import { FaMobile } from "react-icons/fa";
 import image from "../../../assets/856dba19-7eb9-407f-87c4-f3cf79d994b4 (2).jpg";
 
 import { Link } from "react-router-dom";
+import { IoMail } from "react-icons/io5";
 const Banner = () => {
 
   
@@ -51,9 +53,11 @@ const Banner = () => {
           to continuous learning and staying updated with the latest industry
           trends.
         </p>
+        <p className="flex justify-center items-center mt-2"><FaMobile className="text-xl mr-1"></FaMobile> (+88)01882277032</p>
+        <p className="flex justify-center items-center"><IoMail className="text-xl mr-1"></IoMail> neelimasultana6@gmail.com</p>
        <div className="flex gap-3">
        <div className="mt-3 py-2 px-4 border border-yellow-600 rounded-full text-white  hover:bg-gradient-to-r from-green-500 to-blue-500">
-        <a  href="/public/neelimas_resume (2).pdf" download>
+        <a  href="/neelimas_resume.pdf" download>
             Download Resume
         </a>
       </div>
