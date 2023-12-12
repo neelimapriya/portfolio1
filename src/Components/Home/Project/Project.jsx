@@ -13,12 +13,12 @@ const Project = () => {
         
           <button
             className="btn w-52  justify-center bg-slate-200 text-black"
-            onClick={() => document.getElementById("my_modal_5").showModal()}
+            onClick={() => document.getElementById("my_modal_1").showModal()}
           >
             Details
           </button>
           <dialog
-            id="my_modal_5"
+            id="my_modal_1"
             className="modal modal-bottom sm:modal-middle "
           >
             <div className="modal-box bg-slate-200 text-black">
@@ -42,12 +42,12 @@ const Project = () => {
         
           <button
             className="btn w-52  justify-center bg-slate-200 text-black"
-            onClick={() => document.getElementById("my_modal_5").showModal()}
+            onClick={() => document.getElementById("my_modal_2").showModal()}
           >
             Details
           </button>
           <dialog
-            id="my_modal_5"
+            id="my_modal_2"
             className="modal modal-bottom sm:modal-middle "
           >
             <div className="modal-box bg-slate-200 text-black">
@@ -71,12 +71,12 @@ const Project = () => {
         
           <button
             className="btn w-52  justify-center bg-slate-200 text-black"
-            onClick={() => document.getElementById("my_modal_5").showModal()}
+            onClick={() => document.getElementById("my_modal_3").showModal()}
           >
             Details
           </button>
           <dialog
-            id="my_modal_5"
+            id="my_modal_3"
             className="modal modal-bottom sm:modal-middle "
           >
             <div className="modal-box bg-slate-200 text-black">
@@ -100,12 +100,12 @@ const Project = () => {
         
           <button
             className="btn w-52  justify-center bg-slate-200 text-black"
-            onClick={() => document.getElementById("my_modal_5").showModal()}
+            onClick={() => document.getElementById("my_modal_4").showModal()}
           >
             Details
           </button>
           <dialog
-            id="my_modal_5"
+            id="my_modal_4"
             className="modal modal-bottom sm:modal-middle "
           >
             <div className="modal-box bg-slate-200 text-black">
